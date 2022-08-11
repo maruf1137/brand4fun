@@ -263,7 +263,7 @@ body {
 	}
 	/* nav */
 	.nav {
-		background-color: var(--color-white);
+		/* background-color: var(--color-white); */
 	}
 	.nav-mbl-btn {
 		display: block;
@@ -271,8 +271,8 @@ body {
 		top: 50%;
 		right: 3rem;
 		transform: translateY(-50%);
-		height: 2.5rem;
-		width: 2.5rem;
+		height: 3.5rem;
+		width: 3.5rem;
 	}
 	.nav-mbl-btn img {
 		height: 100%;
@@ -287,12 +287,11 @@ body {
 		position: fixed;
 		top: 12rem;
 		left: 0;
-		background-color: var(--color-white);
-		color: var(--color-black);
+		background-color: var(--color-black);
+		color: var(--color-white);
 		height: 35rem;
 		flex-direction: column;
 		width: 100%;
-		/* border-top: 1px solid red; */
 		transform: translateY(-100%);
 		opacity: 0;
 		visibility: hidden;
@@ -303,17 +302,6 @@ body {
 		transform: translateY(0);
 		opacity: 1;
 		visibility: visible;
-	}
-
-	.nav-link:link,
-	.nav-link:visited {
-		color: var(--color-black);
-	}
-
-	.nav-link:hover,
-	.nav-link.active {
-		color: var(--color-btn);
-		text-transform: uppercase;
 	}
 
 	.nav-list .btn-contact {
