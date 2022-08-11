@@ -70,6 +70,7 @@ body {
 	color: var(--color-white);
 	text-transform: uppercase;
 	transition: all 0.3s;
+	font-size: 12px;
 }
 .nav-link:hover,
 .nav-link.active {
